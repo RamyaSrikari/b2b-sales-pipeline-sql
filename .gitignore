@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local data and credentials
+.env
+.env.*
+*.key
+*.jsonl
+data/generated/
+credentials/
+
+# Power BI local artifacts
+*.pbix~
+*.pbit~
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
